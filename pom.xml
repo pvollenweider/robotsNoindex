@@ -56,16 +56,15 @@
     </parent>
     <groupId>org.jahia.modules</groupId>
     <artifactId>robotsnoindex</artifactId>
-    <name>robotsNoindex</name>
+    <name>Robots No Index</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
-    <description>This is the custom module (robotsNoindex) for running on a Digital Experience Manager server.</description>
+    <description>Jahia DX module to prevent most search engine web crawlers from indexing a page on your site.</description>
 
     <scm>
-        <connection>scm:dummy:uri</connection>
-        <developerConnection>scm:dummy:uri</developerConnection>
+        <connection>scm:git:git@github.com:pvollenweider/robotsNoindex.git</connection>
+        <developerConnection>scm:git:git@github.com:pvollenweider/robotsNoindex.git</developerConnection>
     </scm>
-
     <repositories>
         <repository>
             <id>jahia-public</id>
